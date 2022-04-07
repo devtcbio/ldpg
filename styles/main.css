@@ -1,0 +1,129 @@
+body {
+    color: #000905 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.font-chakra {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.font-weight-semi-bold {
+    font-weight: 500;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-gray {
+    color: #6A7671;
+}
+
+.bg-success-2 {
+    background: #14F195;
+}
+
+.button-success {
+    background: #14F195;
+}
+
+.button-success:hover {
+    background: #00ff8f;
+}
+
+.try-it-free {
+    color: #000905;
+}
+
+.try-it-free:hover {
+    color: #007bff !important;
+}
+
+.try-it-free:hover > .button-success{
+    background: #00ff8f;
+}
+
+.border-radius {
+    border-radius: 5px
+}
+
+.shadow {
+    box-shadow: 0px 10px 30px 0px #CECECE99;
+}
+
+.hover-underline:hover {
+     text-decoration: underline;
+ }
+
+.beat-odds {
+    font-size: 30px;
+    line-height: 42px
+}
+
+.trade-like {
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.description-content{
+    margin-top: 1rem;
+}
+
+.bg-content {
+    position: absolute;
+    width: 95%;
+    height: 340px;
+
+    background: #14F195;
+    opacity: 0.06;
+    filter: blur(200px);
+}
+
+.ellipse-content {
+    position: absolute;
+    width: 146px;
+    height: 70px;
+    left: -7px;
+    top: 100px;
+    z-index: 1;
+
+    border: 3px solid #FF9900;
+    box-sizing: border-box;
+    border-radius: 80px;
+}
+
+.content-img-mobile {
+    display: block;
+}
+
+.content-img-pc {
+    display: block;
+}
+
+.img-fire {
+    height: 70px;
+    width: 70px;
+    margin: -25px;
+    margin-bottom: -18px
+}
+
+
+.fs-xs {
+    font-size: 10px;
+}
+
+.fs-sm {
+    font-size: 12px;
+}
+
+.fs-md {
+    font-size: 14px;
+}
+
+.fs-lg {
+    font-size: 18px;
+}
+
+.fs-xl {
+    font-size: 20px;
+}
