@@ -1,0 +1,119 @@
+
+@media (max-width: 576px) {
+    .trade-like {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .content-img-pc {
+        display: none;
+    }
+
+    .fs-lg {
+        font-size: 14px;
+    }
+
+    .beat-odds {
+        font-size: 20px;
+    }
+
+    .item-title {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    .content-img-mobile {
+        display: block;
+    }
+
+    .content-img-pc {
+        display: none;
+    }
+
+    .fs-lg {
+        font-size: 16px;
+    }
+
+    .item-content {
+        border: 0px solid #dee2e6;
+    }
+
+    .beat-odds {
+        font-size: 22px;
+    }
+
+    .item-title {
+        font-size: 18px;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+
+    .logo-img {
+        width: 242px;
+    }
+
+    .sig-class {
+        margin-top: 0.2rem;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    .trade-like {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .item-description {
+        font-size: 16px;
+        margin-top: 0em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .beat-odds {
+        font-size: 28px;
+    }
+
+    .description-content{
+        margin-top: 3rem;
+    }
+
+    .content-img-mobile {
+        display: none;
+    }
+
+    .content-img-pc {
+        display: block;
+    }
+
+    .fs-lg {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1280px !important;
+    }
+
+    .beat-odds {
+        font-size: 30px;
+    }
+
+    .trade-like {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
