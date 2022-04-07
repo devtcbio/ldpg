@@ -107,6 +107,28 @@ body {
     margin-bottom: -18px
 }
 
+.logo-img {
+    width: 182px;
+    margin-left: -8px;
+}
+
+.sig-class {
+    font-size: 12px;
+}
+
+.item-content {
+    border-top: 1px solid #dee2e6;
+}
+
+.item-description {
+    font-size: 14px;
+    margin-top: -0.7em;
+}
+
+.item-title {
+    margin-top: 0.7em;
+}
+
 
 .fs-xs {
     font-size: 10px;
