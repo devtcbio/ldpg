@@ -36,7 +36,7 @@ body {
 }
 
 .try-it-free:hover {
-    color: #007bff !important;
+    color: #000905 !important;
 }
 
 .try-it-free:hover > .button-success{
@@ -72,11 +72,23 @@ body {
 .bg-content {
     position: absolute;
     width: 95%;
-    height: 340px;
+    height: 195px;
+    z-index: 1;
+    top: 0;
+    left: 0;
 
     background: #14F195;
     opacity: 0.06;
     filter: blur(200px);
+}
+
+.main-content {
+    /*position: absolute;*/
+    /*top: -170px;*/
+    /*height: 320px;*/
+    /*left: 0;*/
+    /*width: 95%;*/
+    /*z-index: 100;*/
 }
 
 .ellipse-content {
@@ -114,10 +126,6 @@ body {
 
 .sig-class {
     font-size: 12px;
-}
-
-.item-content {
-    border-top: 1px solid #dee2e6;
 }
 
 .item-description {
